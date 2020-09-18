@@ -1,0 +1,189 @@
+#home
+{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    color: #ffffff;
+    position: relative;
+      margin-bottom: 110px;
+}
+#open
+{
+    position: absolute;
+    left: 0px;
+    top:300px
+
+}
+#close{
+    cursor: pointer;
+}
+
+.layar
+{
+    background-color: rgba(214, 46, 51 , 0.6);
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+#home
+{
+    overflow: hidden;
+}
+#home h1
+{
+  
+    font-size: 60px !important;
+    z-index: 99999999;
+    
+}
+#open
+{
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 9999;
+}
+/* #list{
+    position: absolute;
+    top:45%;
+    left:0;
+    z-index: 9;
+
+} */
+#openList
+{
+   background-color: #414658;
+   color: white;
+   width: 17%;
+   position: fixed;
+   top: 0px;
+   left:-290px;
+   bottom: 0;
+   z-index: 99;
+   
+}
+#openList a
+{
+    display: block;
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#openList i
+{
+    float: right;
+    font-size: 28px;
+    color: #ffffff;
+    transition: 0.3s;
+
+}
+#openList a:hover
+{
+    color: rgba(214, 46, 51 , 0.4);
+}
+#openList i:hover
+{
+    color: rgba(214, 46, 51 , 0.4);
+}
+
+
+#details
+{
+    width: 50% !important;
+   
+}
+
+#details h2
+{
+    font-size: 25px;
+    color: #ffffff;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    margin: 0;
+    
+}
+#details p
+{
+    background-color:#cccccc ;
+    margin: 0;
+}
+
+.counter
+{
+    background-image:url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+    background-position: center;
+    height: 330px;
+    position: relative;
+}
+
+.time
+{
+   border: 1px solid #ffffff; 
+   color: #ffffff;
+}
+
+#info p
+{
+    text-align: center;
+    color: #777777;
+}
+.same
+{
+    text-align: center;
+    color: #777777;
+}
+#contact .pRed
+{
+    text-align: center;
+  color: #D62E33 ;
+}
+#contact i
+{
+    color: #999999;
+}
+.icons i
+{
+  font-size: 18px;
+  color: #777777 !important;
+  border:1px solid #777777;
+  cursor: pointer;
+  text-align: center;
+}
+.icons i:hover
+{
+    color: #ffffff !important;
+    background-color: #D62E33 ;
+    border:1px solid #D62E33;
+}
+.inputPlace
+{
+    font-size: 18px !important;
+    border-radius: 0;
+}
+.reamining span
+{
+    font-size: 20px;
+    color: #D62E33;
+}
+.myBtn
+{
+    border-radius: 0;
+}
+#contact h2 
+{
+    color:#444444;
+    font-weight: bold;
+    font-size: 35px;
+}
+#contact h4{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 700;
+}
